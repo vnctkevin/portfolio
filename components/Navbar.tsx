@@ -9,7 +9,7 @@ export default function Navbar() {
         <>
         <header className="px-4 lg:px-6 h-14 flex items-center dark:bg-gray-900">
               <header className="px-4 lg:px-6 h-14 flex items-center">
-                <Link className="flex items-center justify-center" href="#">
+                <Link className="flex items-center justify-center" href="/">
                   <img
                     src={theme === "dark" ? "logo-kevin-fit-white.png" : "logo-kevin-fit.png"}
                     alt="Kevin"
@@ -23,7 +23,7 @@ export default function Navbar() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="https://jurnal.vnctkevin.com/">
             Blog
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/about">
             About
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="mailto:vnctkevin@gmail.com">

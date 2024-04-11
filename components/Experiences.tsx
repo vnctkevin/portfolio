@@ -66,7 +66,7 @@ export default function Experiences() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
             <p className="text-lg text-gray-500 dark:text-gray-400">I have worked with a range of companies, organizations, and projects. Here are a few of my experiences.</p>
-              <div className="flex justify-between md:justify-start space-x-4 bg-gray-100 dark:bg-gray-900 rounded-md border-b border-t border-gray-400 dark:border-gray-600">
+              <div className="flex justify-between md:justify-start space-x-4 bg-white dark:bg-gray-900 rounded-md border-b border-t border-gray-200 dark:border-gray-600">
                 <button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
                     experienceTabs === 0 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'

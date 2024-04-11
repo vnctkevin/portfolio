@@ -33,7 +33,7 @@ export default function HeroSection() {
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 <b>I am a <RedoTextAnimation /></b></p> 
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Currently, I'm studying Computer Science at University of Indonesia as an undergraduate student. As a creative and dedicated person who's passionate about <b>visual design, UI/UX design, and software and web development</b>, I have helped people visualize their dreams and visions for more than five years. I will be more than happy to cooperate with you.
+                Currently, I'm studying Computer Science at University of Indonesia as an undergraduate student. I am a creative and dedicated person who's passionate about <b>visual design, UI/UX design, and software and web development.</b>
                 </p>
               </div>
               <div className="flex flex-col justify-center md:justify-start gap-2 min-[400px]:flex-row">

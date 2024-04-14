@@ -32,7 +32,7 @@ export default function HeroSection() {
                 
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 <b>I am a <RedoTextAnimation /></b></p> 
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-500 md:text-base/relaxed dark:text-gray-400">
                 Currently, I'm studying Computer Science at University of Indonesia as an undergraduate student. I am a creative and dedicated person who's passionate about <b>visual design, UI/UX design, and software and web development.</b>
                 </p>
               </div>
@@ -53,10 +53,10 @@ export default function HeroSection() {
             </div>
             <img
               alt="Image"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center md:w-[300px] lg:w-[500px] md:order-0"
+              className="mx-auto overflow-hidden rounded-xl object-cover object-center md:w-[400px] lg:w-[500px] md:order-0"
               height="400"
               src="images/profile-2024.jpg"
-              width="500"
+              width="600"
             />
           </div>
         </section>

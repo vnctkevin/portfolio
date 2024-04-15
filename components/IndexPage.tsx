@@ -8,7 +8,7 @@ import HeroSection from "./Hero"
 import Navbar from "./Navbar"
 import Image from "next/image"
 import Experiences from "./Experiences"
-import Projects from "./Projects"
+import Skills from "./Skills"
 import Footer from "./Footer"
 import CTASection from "./CTASection"
 
@@ -19,6 +19,7 @@ export default function IndexPage() {
       <main>
         <HeroSection />
         <Experiences />
+        <Skills />
         <CTASection />
       </main>
       <Footer/>

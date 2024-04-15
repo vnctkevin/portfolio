@@ -16,11 +16,6 @@ export const SKILLS: ExperienceSkill = {
       logo: "/images/logo/expo.png",
       link: "https://expo.dev/",
     },
-    DjangoRestFramework: {
-      name: "Django REST Framework",
-      logo: "/images/logo/django-rest-framework.svg",
-      link: "https://www.django-rest-framework.org/",
-    },
     Firebase: {
       name: "Firebase",
       logo: "/images/logo/firebase.svg",
@@ -150,11 +145,6 @@ export const SKILLS: ExperienceSkill = {
       name: "Communication",
       logo: "/images/logo/communication.svg",
       link: "#",
-    },
-    BlitzJS: {
-      name: "BlitzJS",
-      logo: "/images/logo/blitzjs.png",
-      link: "https://blitzjs.com/",
     },
     FramerMotion: {
       name: "Framer Motion",

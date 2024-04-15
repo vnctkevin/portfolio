@@ -20,7 +20,7 @@ const OrganizationsExperience: SingularExperienceType[] = [
         date: "Nov. 2021 - Dec. 2022",
         job_desc: [
           "Work with 10 UX designers to complete projects from various product owners.",
-          "Contribution in the creation of Academy and Competition UI/UX Design which was used by over 4200+ participants in that year's event.",
+          "Contribution in the creation of Academy and Competition UI/UX Design which was used by over 4200+ participants in the event.",
           "Create user-centered design through user interview, wireframe, high fidelity design, and usability testing for COMPFEST 14's user dashboard, Academy and Competition event, and Job and Intern Fair.",
         ],
       },

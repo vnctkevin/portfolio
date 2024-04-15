@@ -176,4 +176,14 @@ export const SKILLS: ExperienceSkill = {
       logo: "/images/logo/outsystems.png",
       link: "https://www.outsystems.com/",
     },
+    Redis: {
+      name: "Redis",
+      logo: "/images/logo/redis.svg",
+      link: "https://redis.io/",
+    },  
+    RabbitMQ: {
+      name: "RabbitMQ",
+      logo: "https://www.rabbitmq.com/assets/files/rabbitmq-logo-e91cacd38fcef5219149bc5cfa10b384.svg",
+      link: "https://www.rabbitmq.com/",
+    },
   };

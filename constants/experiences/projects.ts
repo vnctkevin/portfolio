@@ -3,6 +3,47 @@ import { SKILLS } from "./skills";
 
 const ProjectsExperience: SingularExperienceType[] = [
   {
+    name: "Zaku",
+    logo: "/images/experiences/projects/zaku/logo.png",
+    link: "https://drive.google.com/file/d/13v4gBJ-hfe3RRm3QO1-kP8UyrZszPY78/view?usp=sharing",
+
+    images: [
+      "/images/experiences/projects/zaku/zaku-slide.jpg",
+      "/images/experiences/projects/zaku/zaku.jpg"],
+
+    history: [
+      {
+        role: "Software Engineer",
+        date: "Jan. 2024",
+        job_desc: [
+          "A mobile app for financial record-keeping to make expense tracking easier, leading to a more economical and planned life",
+          "Developed using Outsystems and Figma for the design.",
+        ],
+      },
+    ],
+
+    skills: [SKILLS.Outsystems, SKILLS.Figma],
+  },
+  {
+    name: "Suiwallet",
+    logo: "/",
+    link: "https://github.com/Meta502/suiwallet-be",
+
+    images: [],
+
+    history: [
+      {
+        role: "Software Engineer",
+        date: "Jun. 2023",
+        job_desc: [
+          "E-Wallet payment simulator with asynchronous processing and real-time notification.",
+        ],
+      },
+    ],
+
+    skills: [SKILLS.Django, SKILLS.Redis, SKILLS.RabbitMQ, SKILLS.NextJS],
+  },
+  {
     name: "URL Shortener",
     logo: "/images/experiences/projects/url_shortener/logo.svg",
     link: "https://github.com/vnctkevin/url-shortener",
@@ -40,7 +81,7 @@ const ProjectsExperience: SingularExperienceType[] = [
       },
     ],
 
-    skills: [SKILLS.NextJS, SKILLS.TailwindCSS, SKILLS.Cloudinary, SKILLS.StyledComponents],
+    skills: [SKILLS.NextJS, SKILLS.TailwindCSS, SKILLS.Cloudinary],
   },
   {
     name: "BooKantin",

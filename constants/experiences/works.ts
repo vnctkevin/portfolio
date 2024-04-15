@@ -25,10 +25,13 @@ const WorkExperience: SingularExperienceType[] = [
   },
   {
     name: "Pemantauan Publikasi Ilmiah",
-    logo: "/images/experiences/projects/memepedia/logo.svg",
+    logo: "/images/experiences/work/ppi/logo.png",
     link: "https://ppi.cs.ui.ac.id/",
 
-    images: [],
+    images: [
+      "/images/experiences/work/ppi/ppi-slide.jpg",
+      "/images/experiences/work/ppi/ppi.jpg"
+    ],
 
     history: [
       {
@@ -110,10 +113,16 @@ const WorkExperience: SingularExperienceType[] = [
   },
   {
     name: "SalingJaga Research Team",
-    logo: "/",
+    logo: "/images/experiences/work/salingjaga/logo.png",
     link: "https://suaramahasiswa.com/saling-jaga-ui-website-inovasi-fh-ui-untuk-penanganan-kekerasan-seksual",
 
-    images: [],
+    images: [
+      "/images/experiences/work/salingjaga/salingjaga-slide.jpg",
+      "/images/experiences/work/salingjaga/salingjaga.jpg",
+    ],
+
+    headline_role: "UI/UX Designer",
+    headline_date: "Jun. 2020 - Dec. 2020",
 
     history: [
       {

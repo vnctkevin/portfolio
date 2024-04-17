@@ -91,11 +91,6 @@ export const SKILLS: ExperienceSkill = {
       logo: "/images/logo/fastapi.svg",
       link: "https://fastapi.tiangolo.com/",
     },
-    Linux: {
-      name: "Linux",
-      logo: "/images/logo/linux.png",
-      link: "https://www.linux.org/",
-    },
     Prisma: {
       name: "Prisma",
       logo: "/images/logo/prisma.svg",

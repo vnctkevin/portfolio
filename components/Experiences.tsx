@@ -8,6 +8,7 @@ import { ExperiencesType, SingularExperienceType } from "../constants/experience
 
 import { useState } from 'react'
 import { render } from 'react-dom'
+import { motion } from 'framer-motion';
 
 export default function Experiences() {
   //get all experiences
@@ -67,38 +68,58 @@ export default function Experiences() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
             <p className="text-lg text-gray-500 dark:text-gray-400">I have worked with a range of companies, organizations, and projects. Here are a few of my experiences.</p>
               <div className="flex md:w-max justify-between md:justify-start space-x-4 bg-white dark:bg-gray-900 rounded-md border border-gray-300 dark:border-gray-600">
-                <button
+                <motion.button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
                     experienceTabs === 0 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(0)}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.9 }}
+                  initial={{ scale: 0.90 }}
+                  animate={{ scale: experienceTabs === 0 ? 1 : 0.95}}
+                  transition={{ duration: 0.25, type: 'spring', bounce: 0.1 }}
                 >
                   Work
-                </button>
-                <button
+                </motion.button>
+                <motion.button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
                     experienceTabs === 1 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(1)}
+                  initial={{ scale: 0.95 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.9 }}
+                  animate={{ scale: experienceTabs === 1 ? 1 : 0.95}}
+                  transition={{ duration: 0.25, type: 'spring', bounce: 0.1 }}
                 >
                   Projects
-                </button>
-                <button
+                </motion.button>
+                <motion.button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
                     experienceTabs === 2 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(2)}
+                  initial={{ scale: 0.95 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.9 }}
+                  animate={{ scale: experienceTabs === 2 ? 1 : 0.95}}
+                  transition={{ duration: 0.25, type: 'spring', bounce: 0.1 }}
                 >
                   Organizations
-                </button>
-                <button
+                </motion.button>
+                <motion.button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
                     experienceTabs === 3 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(3)}
+                  initial={{ scale: 0.95 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.9 }}
+                  animate={{ scale: experienceTabs === 3 ? 1 : 0.95}}
+                  transition={{ duration: 0.3, type: 'spring', bounce: 0.1 }}
                 >
                   Education
-                </button>
+                </motion.button>
               </div>
               {renderExperiences(selectedExperience)}
             </div>

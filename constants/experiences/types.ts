@@ -18,6 +18,7 @@ export type SingularExperienceType = {
   name: string;
   logo: string;
   link: string;
+  cover?: string;
   headline_role?: string;
   headline_date?: string;
   images: string[];

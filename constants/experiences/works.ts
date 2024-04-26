@@ -9,6 +9,8 @@ const WorkExperience: SingularExperienceType[] = [
 
     images: [],
 
+    cover: "/images/experiences/work/mda/mda-slide.jpg",
+
     history: [
       {
         role: "Awardee",
@@ -32,6 +34,8 @@ const WorkExperience: SingularExperienceType[] = [
       "/images/experiences/work/ppi/ppi-slide.jpg",
       "/images/experiences/work/ppi/ppi.jpg"
     ],
+
+    cover: "/images/experiences/work/ppi/ppi-slide.jpg",  
 
     history: [
       {
@@ -120,6 +124,8 @@ const WorkExperience: SingularExperienceType[] = [
       "/images/experiences/work/salingjaga/salingjaga-slide.jpg",
       "/images/experiences/work/salingjaga/salingjaga.jpg",
     ],
+
+    cover: "/images/experiences/work/salingjaga/salingjaga-slide.jpg",
 
     headline_role: "UI/UX Designer",
     headline_date: "Jun. 2020 - Dec. 2020",

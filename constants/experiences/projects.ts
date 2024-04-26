@@ -10,6 +10,8 @@ const ProjectsExperience: SingularExperienceType[] = [
     images: [
       "/images/experiences/projects/zaku/zaku-slide.jpg",
       "/images/experiences/projects/zaku/zaku.jpg"],
+    
+    cover: "/images/experiences/projects/zaku/zaku-slide.jpg",
 
     history: [
       {

@@ -31,7 +31,8 @@ const EducationsExperience: SingularExperienceType[] = [
         role: "High School Diploma",
         date: "Jul. 2017 - Jun. 2020",
         job_desc: [
-          "Activities and societies: Visual Designer (Canisius Education Fair 2018), Journalist, Multimedia, Visual Designer (Temu Kolese 2018), Visual Designer (Canisius College League 2018), Vice PIC of Visual Design (Canisius College Cup 2019)"
+          "Activities and societies: Visual Designer (Canisius Education Fair 2018), Journalist, Multimedia, Visual Designer (Temu Kolese 2018), Visual Designer (Canisius College League 2018), Vice PIC of Visual Design (Canisius College Cup 2019)",
+          "Graduated with Cum Laude Academic Achievement",
         ],
       },
     ],

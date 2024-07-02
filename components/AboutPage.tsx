@@ -31,24 +31,43 @@ export default function AboutPage() {
               width="500"
             />
           </div>
-          <div className="flex flex-col pt-4 justify-center gap-4 min-[400px]:flex-row">
+          <div className="grid pt-4 justify-center gap-4 min-[400px]:flex-row">
             <Link href="mailto:vnctkevin@gmail.com">
-              <HiOutlineMail className="w-6 h-6" />
+              <button className='bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded w-full flex items-center gap-4'>
+                <HiOutlineMail className="w-6 h-6" />
+                Email Me!
+              </button>
+              
             </Link>
             <Link href="https://github.com/vnctkevin">
+            <button className='bg-black hover:bg-gray-200 text-white font-semibold hover:text-black py-2 px-4 border border-gray-500 hover:border-transparent rounded w-full flex items-center gap-4'>
               <BsGithub className="w-6 h-6" />
+                Github
+              </button>
             </Link>
             <Link href="https://www.twitter.com/vnctkevin/">
+            <button className='bg-blue-500 hover:bg-white text-white font-semibold hover:text-blue-600 py-2 px-4 border border-blue-500 hover:border-blue-500 rounded w-full flex items-center gap-4'>
               <BsTwitter className="w-6 h-6" />
+                Follow me on Twitter
+              </button>
             </Link> 
             <Link href="https://www.instagram.com/vnctkevin/" >
+            <button className='bg-orange-500 hover:bg-white text-white font-semibold hover:text-orange-600 py-2 px-4 border border-orange-700 hover:border-orange-500 rounded w-full flex items-center gap-4'>
               <BsInstagram className="w-6 h-6" />
+                Follow my Instagram
+              </button>
             </Link>
             <Link href="https://medium.com/@vnctkevin">
-              <BsMedium className="w-6 h-6" />
+              <button className='bg-gray-500 hover:bg-white text-white font-semibold hover:text-gray-700 py-2 px-4 border border-gray-500 hover:border-gray-200 rounded w-full flex items-center gap-4'>
+                <BsMedium className="w-6 h-6" />
+                  Read on Medium
+                </button>
             </Link>
             <Link href="https://www.youtube.com/@vnctkevin/videos">
-              <BsYoutube className="w-6 h-6" />
+              <button className='bg-red-700 hover:bg-white text-white font-semibold hover:text-red-600 py-2 px-4 border border-red-900 hover:border-red-200 rounded w-full flex items-center gap-4'>
+                <BsYoutube className="w-6 h-6" />
+                  Personal Youtube Channel
+                </button>
             </Link>
             </div>
         </section>

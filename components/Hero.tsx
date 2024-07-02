@@ -53,7 +53,7 @@ export default function HeroSection() {
             </div>
             <img
               alt="Image"
-              className="mx-auto overflow-hidden rounded-xl object-cover object-center md:w-[400px] lg:w-[500px] md:order-0"
+              className="mx-auto overflow-hidden rounded-xl object-cover object-center md:w-[500px] lg:w-[500px] md:order-0"
               height="400"
               src="images/profile-2024.jpg"
               width="600"

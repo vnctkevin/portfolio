@@ -31,9 +31,9 @@ export default function AboutPage() {
               width="500"
             />
           </div>
-          <div className="grid pt-4 justify-center gap-4 min-[400px]:flex-row">
+          <div className="grid pt-12 justify-center px-4 gap-4 min-[400px]:flex-row">
             <Link href="mailto:vnctkevin@gmail.com">
-              <button className='bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded w-full flex items-center gap-4'>
+              <button className='bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white dark:text-gray-200 py-2 px-4 border border-gray-500 hover:border-transparent rounded w-full flex items-center gap-4'>
                 <HiOutlineMail className="w-6 h-6" />
                 Email Me!
               </button>

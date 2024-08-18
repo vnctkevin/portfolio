@@ -22,7 +22,7 @@ const itemVariants = {
 
 export default function HeroSection() {
     return (
-    <section className="w-full py-12 md:py-18 lg:py-28 bg-gray-100 dark:bg-gray-800">
+    <section className="w-full py-12 md:py-18 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container flex flex-col md:flex-row items-center justify-center gap-4 px-4 text-center md:px-6 md:gap-10">
             <div className="space-y-3 md:order-1">
               <div className="space-y-2 text-center md:text-left">
@@ -30,10 +30,10 @@ export default function HeroSection() {
                   Hi, I'm Kevin
                 </h1>
                 
-                <p className="max-w-[500px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 <b>I am a <RedoTextAnimation /></b></p> 
                 <p className="max-w-[600px] text-gray-500 md:text-base/relaxed dark:text-gray-400">
-                Currently, I'm studying Computer Science at University of Indonesia as an undergraduate student. I am a creative and dedicated person who's passionate about <b>visual design, UI/UX design, and software and web development.</b>
+                 I'm  a motivated junior <b>software engineer</b> with a strong foundation in <b>front-end development</b> and a passion about crafting exceptional user experiences in <b>product design</b> and continuously expanding my knowledge in software development. Currently, I'm working on a <b>Full Stack Engineer</b> role.
                 </p>
               </div>
               <div className="flex flex-col justify-center md:justify-start gap-2 min-[400px]:flex-row">
@@ -53,7 +53,7 @@ export default function HeroSection() {
             </div>
             <img
               alt="Image"
-              className="mx-auto overflow-hidden rounded-xl object-cover object-center md:w-[600px] lg:w-[800px] md:order-0"
+              className="mx-auto overflow-hidden rounded-xl object-cover object-center md:w-[500px] lg:w-[700px] md:order-0"
               height="400"
               src="images/Profile-Kevin-2024-16x9.jpg"
               width="600"

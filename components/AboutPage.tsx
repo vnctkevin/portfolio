@@ -18,7 +18,7 @@ export default function AboutPage() {
               <div className="space-y-2 text-center md:text-left">
                 
                 <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-200">
-                I synthesize ideas into visuals and codes. My name is Kevin. Currently, I'm studying Computer Science at University of Indonesia as an undergraduate student. As a creative and dedicated person who's passionate about <b>visual design, UI/UX design, and software and web development</b>, I have helped people visualize their dreams and visions for more than five years, and I will be more than happy to cooperate with you.
+                I synthesize ideas into visuals and codes. My name is Kevin. Currently, I'm a Bachelor of Computer Science graduate from University of Indonesia. As a creative and dedicated software engineer who's passionate about <b>crafting experiences</b>, I have helped people visualize their dreams and visions for more than five years, and I will be more than happy to cooperate with you.
                 </p>
               </div>
               

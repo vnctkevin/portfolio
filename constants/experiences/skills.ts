@@ -171,4 +171,9 @@ export const SKILLS: ExperienceSkill = {
       logo: "https://www.rabbitmq.com/assets/files/rabbitmq-logo-e91cacd38fcef5219149bc5cfa10b384.svg",
       link: "https://www.rabbitmq.com/",
     },
+    Laravel: {
+      name: "Laravel",
+      logo: "/images/logo/laravel-logo.svg",
+      link: "https://laravel.com/",
+    }
   };

@@ -3,6 +3,28 @@ import { SKILLS } from "./skills";
 
 const WorkExperience: SingularExperienceType[] = [
   {
+    name: "MrScraper",
+    logo: "/",
+    link: "https://mrscraper.com/",
+
+    images: [],
+
+    cover: "/",
+
+    history: [
+      {
+        role: "Full Stack Engineer",
+        date: "Jul. 2024 - Present",
+        job_desc: [
+          "Build and launch the SaaS product using Laravel and NextJS.",
+          
+        ],
+      },
+    ],
+
+    skills: [SKILLS.AWS, SKILLS.Laravel, SKILLS.NextJS],
+  },
+  {
     name: "Mandiri My Digital Academy Batch 2",
     logo: "/",
     link: "https://mydigitalacademy.id/",

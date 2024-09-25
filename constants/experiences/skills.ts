@@ -36,6 +36,11 @@ export const SKILLS: ExperienceSkill = {
       logo: "/images/logo/postgresql.svg",
       link: "https://www.postgresql.org/",
     },
+    MySQL: {
+      name: "MySQL",
+      logo: "/images/logo/mysql.svg",
+      link: "https://www.mysql.com/",
+    },
     AWS: {
       name: "AWS",
       logo: "/images/logo/aws.svg",

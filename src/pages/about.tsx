@@ -10,7 +10,7 @@ import { ThemeProvider } from 'next-themes';
 export const metadata: Metadata = {
     title: "About Me - Kevin's Portfolio",
     description: "Kevin's (@vnctkevin) personal portfolio website",
-    keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin"],
+    keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin", "frontend", "full stack"],
     icons: [
         {
             rel: "icon",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" enableSystem={false}>
     <Head>
         <title>About Me - Kevin's Portfolio</title>
         <meta name="description" content="Kevin's (@vnctkevin) personal portfolio website" />

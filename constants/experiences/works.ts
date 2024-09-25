@@ -16,13 +16,14 @@ const WorkExperience: SingularExperienceType[] = [
         role: "Full Stack Engineer",
         date: "Jul. 2024 - Present",
         job_desc: [
-          "Build and launch the SaaS product using Laravel and NextJS.",
-          
+          "Develop various feature in the SaaS utilizing Laravel PHP Platform, NextJS, and SQL as the tech stack.",
+          "Crafting visually appealing frontend designs.",
+          "Seamlessly integrating APIs (OpenAI, Zapier, Stripe, etc) in feature delivery as well as data handling and automation workflows."
         ],
       },
     ],
 
-    skills: [SKILLS.AWS, SKILLS.Laravel, SKILLS.NextJS],
+    skills: [SKILLS.AWS, SKILLS.Laravel, SKILLS.NextJS, SKILLS.MySQL],
   },
   {
     name: "Mandiri My Digital Academy Batch 2",
@@ -36,7 +37,7 @@ const WorkExperience: SingularExperienceType[] = [
     history: [
       {
         role: "Awardee",
-        date: "Des. 2023 - Jan. 2024",
+        date: "Des. 2023 - Jun. 2024",
         job_desc: [
           "Successfully secured a spot among the top 600 awardees, standing out from a competitive pool of over 24,000 applicants (<2.5%).",
           "Engaged in an intensive 1-month Bootcamp at My Digital Academy, emphasizing innovation in banking and financial product development.",

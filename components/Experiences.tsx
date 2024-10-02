@@ -64,8 +64,8 @@ export default function Experiences() {
 
   return (
     <>
-      <section className="py-8 md:py-12 lg:py-24 dark:bg-gray-900" id='experiences'>
-        <div className="px-4 md:px-6">
+      <section className="py-8 md:py-12 dark:bg-gray-900 " id='experiences'>
+        <div className="px-4 md:px-6 max-w-6xl mx-auto">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
             <p className="text-lg text-gray-500 dark:text-gray-400">I have worked with a range of companies, organizations, and projects. Here are a few of my experiences.</p>
